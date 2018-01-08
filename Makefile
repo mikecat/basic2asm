@@ -1,6 +1,7 @@
 TARGET = Basic2Asm.jar
 CLASSES = \
-	Basic2Asm.class
+	Basic2Asm.class \
+	CommandLineData.class \
 # blank line (allow \ after the last class)
 
 $(TARGET): $(CLASSES) jar-manifest.txt
