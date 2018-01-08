@@ -1,0 +1,4 @@
+name	no output
+main_command	java -jar ../Basic2Asm.jar -i hoge.txt -o
+main_expected_return	1
+main_expected_stderr	stderr-no-output.txt

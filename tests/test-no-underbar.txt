@@ -1,0 +1,4 @@
+name	no underbar switch
+main_command	java -jar ../Basic2Asm.jar -i hoge.txt -o fuga.txt --underbar
+main_expected_return	1
+main_expected_stderr	stderr-no-underbar.txt

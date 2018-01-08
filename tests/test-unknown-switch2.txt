@@ -1,0 +1,4 @@
+name	unknown switch 2
+main_command	java -jar ../Basic2Asm.jar hoge.txt -o fuga.txt
+main_expected_return	1
+main_expected_stderr	stderr-unknown-switch-hoge-txt.txt
