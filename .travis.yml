@@ -1,0 +1,4 @@
+language: lava
+install: true
+script:
+  - make
