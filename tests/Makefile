@@ -1,3 +1,5 @@
+TESTER=perl ../tester.pl
+
 .PHONY: test
 test:
-	../tester.pl test-no-input.txt
+	$(TESTER) test-no-input.txt
