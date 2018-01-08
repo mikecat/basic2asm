@@ -13,3 +13,7 @@ $(TARGET): $(CLASSES) jar-manifest.txt
 .PHONY: clean
 clean:
 	rm -f $(TARGET) $(CLASSES)
+
+.PHONY: test
+test:
+	make -C tests
