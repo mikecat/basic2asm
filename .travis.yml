@@ -1,5 +1,6 @@
 language: lava
-install: true
+install:
+  - export _JAVA_OPTIONS=
 script:
   - make
   - make test
