@@ -5,6 +5,7 @@ public class Basic2Asm {
 			commandLineData = CommandLineData.parse(args);
 		} catch (IllegalArgumentException e) {
 			System.err.println("invalid argument(s): " + e.getMessage());
+			System.exit(1);
 		}
 	}
 }
