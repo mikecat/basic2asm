@@ -2,3 +2,4 @@ language: lava
 install: true
 script:
   - make
+  - make test

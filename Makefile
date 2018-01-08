@@ -15,5 +15,5 @@ clean:
 	rm -f $(TARGET) $(CLASSES)
 
 .PHONY: test
-test:
+test: $(TARGET)
 	make -C tests
