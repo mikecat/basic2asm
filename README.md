@@ -1,6 +1,8 @@
 N88BASICっぽいのをアセンブリ言語に変換するやつ
 ----------------------------------------------
 
+[![Build Status](https://travis-ci.org/mikecat/basic2asm.svg?branch=master)](https://travis-ci.org/mikecat/basic2asm)
+
 概要
 ====
 
